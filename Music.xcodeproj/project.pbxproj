@@ -14,6 +14,12 @@
 		60E32698207DE6A400D0B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E32696207DE6A400D0B802 /* LaunchScreen.storyboard */; };
 		60E326A3207DE6A400D0B802 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E326A2207DE6A400D0B802 /* MusicTests.swift */; };
 		60E326AE207DE6A400D0B802 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E326AD207DE6A400D0B802 /* MusicUITests.swift */; };
+		60E326C2207DE6BE00D0B802 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E326BC207DE6BE00D0B802 /* aki.png */; };
+		60E326C3207DE6BE00D0B802 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60E326BD207DE6BE00D0B802 /* natsu.mp3 */; };
+		60E326C4207DE6BE00D0B802 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60E326BE207DE6BE00D0B802 /* ame.mp3 */; };
+		60E326C5207DE6BE00D0B802 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E326BF207DE6BE00D0B802 /* natsu.png */; };
+		60E326C6207DE6BE00D0B802 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E326C0207DE6BE00D0B802 /* ame.png */; };
+		60E326C7207DE6BE00D0B802 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60E326C1207DE6BE00D0B802 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		60E326A9207DE6A400D0B802 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E326AD207DE6A400D0B802 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		60E326AF207DE6A400D0B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E326BC207DE6BE00D0B802 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		60E326BD207DE6BE00D0B802 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		60E326BE207DE6BE00D0B802 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		60E326BF207DE6BE00D0B802 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		60E326C0207DE6BE00D0B802 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		60E326C1207DE6BE00D0B802 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 				60E326A1207DE6A400D0B802 /* MusicTests */,
 				60E326AC207DE6A400D0B802 /* MusicUITests */,
 				60E3268B207DE6A300D0B802 /* Products */,
+				60E326BB207DE6BE00D0B802 /* Music素材 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +136,19 @@
 				60E326AF207DE6A400D0B802 /* Info.plist */,
 			);
 			path = MusicUITests;
+			sourceTree = "<group>";
+		};
+		60E326BB207DE6BE00D0B802 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				60E326BC207DE6BE00D0B802 /* aki.png */,
+				60E326BD207DE6BE00D0B802 /* natsu.mp3 */,
+				60E326BE207DE6BE00D0B802 /* ame.mp3 */,
+				60E326BF207DE6BE00D0B802 /* natsu.png */,
+				60E326C0207DE6BE00D0B802 /* ame.png */,
+				60E326C1207DE6BE00D0B802 /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E326C4207DE6BE00D0B802 /* ame.mp3 in Resources */,
 				60E32698207DE6A400D0B802 /* LaunchScreen.storyboard in Resources */,
+				60E326C3207DE6BE00D0B802 /* natsu.mp3 in Resources */,
+				60E326C7207DE6BE00D0B802 /* aki.mp3 in Resources */,
 				60E32695207DE6A400D0B802 /* Assets.xcassets in Resources */,
 				60E32693207DE6A300D0B802 /* Main.storyboard in Resources */,
+				60E326C6207DE6BE00D0B802 /* ame.png in Resources */,
+				60E326C5207DE6BE00D0B802 /* natsu.png in Resources */,
+				60E326C2207DE6BE00D0B802 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
